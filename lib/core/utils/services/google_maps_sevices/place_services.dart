@@ -6,7 +6,7 @@ import '../../../../feature/maps/data/model/place_autocomplete_model/place_autoc
 
 class PlacesService {
   final String baseUrl = 'https://maps.googleapis.com/maps/api/place';
-  final String apiKey = 'AIzaSyDtJecc6jbQFcHgFwU1IMSDUOkEAxx7gZY';
+  final String apiKey = '';
   Future<List<PlaceModel>> getPredictions(
       {required String input, required String sesstionToken}) async {
     var response = await http.get(Uri.parse(

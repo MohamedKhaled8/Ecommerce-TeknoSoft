@@ -9,7 +9,7 @@ import 'package:ecommerce/feature/maps/data/model/location_info/location_info.da
 class RoutesService {
   final String baseUrl =
       'https://routes.googleapis.com/directions/v2:computeRoutes';
-  final String apiKey = 'AIzaSyDtJecc6jbQFcHgFwU1IMSDUOkEAxx7gZY';
+  final String apiKey = '';
   Future<RoutesModel> fetchRoutes(
       {required LocationInfoModel origin,
       required LocationInfoModel destination,
